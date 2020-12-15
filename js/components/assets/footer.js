@@ -1,10 +1,12 @@
 const footer = {
     template: `
-        <footer>
-            <div class="bg-dark">
-            <h1 class="text-white">esto es un footer</h1>
+        <div class="footer">
+            <div class="bg-light">
+                <div id="contenido">
+                    h
+                </div>
             </div>
-        </footer>
+        </div>
     `
 }
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="col-6">
+        <h6 class="display-6">Mi experiencia</h6>
+        <div class="mt-2">
+            <ul class="list-group h-25 w-100">
+                <li class="list-group-item" v-for="item in experiencia" :key="item.cargo">
+                    {{ item.cargo }}
+                    </br>
+                    {{item.empresa}}
+                    </br>
+                    {{item.years}}
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="row mt-2">
+        <div class="col-6">   
+            <h6 class="display-6">Mi formación académica</h6>
+            <div class="mt-2">
+                <ul class="list-group h-25 w-100">
+                    <li class="list-group-item" v-for="item in estudios" :key="item.titulo">
+                        {{ item.titulo }}
+                        </br>
+                        {{item.instituto}}
+                        </br>
+                        {{item.year}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+         
+
+</body>
+</html>

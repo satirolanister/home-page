@@ -1,7 +1,19 @@
-footer{
+body{
+  background-image: url('../media/img/64-648631_estrellas-backgrounds-espacio-galaxia-asteroides-antimatter-supernova.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.footer{
   height: 100%;
   width: 100%;
   bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.footer #contenido{
+  margin-bottom: auto;
 }
 
 #img{
