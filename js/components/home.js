@@ -1,22 +1,18 @@
 const home = {
     template: `
-<div>
-    <div class=" mt-4 jumbotron">
-        <h3 class="display-4 mx-4">Hola, mi nombre es Jonathan Garzón</h3>
-        <div class="container mt-4">
-            <div class="row mx-2">
-                <div class="col-4">
-                    <img src="../media/img/foto-perfil.jpg" id="img" class="card-img">
-                </div>
-                <div class="col-8">
-                    <p>{{mensaje}}</p>
-                </div>
+    <div class="mt-4">
+    <div class="name-icon">
+    <img src="media/img/145859.png" width="150" height="150" class="rounded-circle" alt="" loading="lazy">
+    </div>
+    <div class="mt-4">
+        <div class="caja mx-auto bg-transparent border border-info">
+            <div class="container">
+                <h1 class="display-4 text-white">Hola, soy Jonathan</h1>
+                <p class="lead text-white">{{mensaje}}</p>
             </div>
-            <hr>
-
         </div>
     </div>
-</div>   
+    </div>
     `,
     data(){
         return{

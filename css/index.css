@@ -1,15 +1,25 @@
 body{
-  background-image: url('../media/img/64-648631_estrellas-backgrounds-espacio-galaxia-asteroides-antimatter-supernova.jpg');
+  margin: 0;
+  background-image: url('../media/img/2-many-starts-on-blue-dark-night-sky-as-a-cosmos-background-oleg-mayorov.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
 }
+.container-fluid{
+  margin-bottom: 100vh;
+}
+
+.name-icon{
+  margin-left: 48%;
+  margin-right: 44%;
+}
+
+.caja{
+  width: 65%;
+}
 
 .footer{
-  height: 100%;
-  width: 100%;
-  bottom: 0%;
-  margin-bottom: 0%;
+  height: 100vh;
 }
 
 .footer #contenido{
@@ -18,4 +28,9 @@ body{
 
 #img{
   height: 95%;
+}
+
+#close{
+  position: absolute;
+  right: 15px;
 }
